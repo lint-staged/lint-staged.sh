@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+set -e
+
 DIM='\033[1;30m'
 NC='\033[0m'
 
