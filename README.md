@@ -1,6 +1,6 @@
 # `lint-staged.sh`
 
-> run linters against Git staged files
+> Run linters against Git staged files
 
 `lint-staged.sh` is a shell script to evaluate a command with the list of [Git](https://git-scm.com) staged files as its arguments, filtered by globs.
 

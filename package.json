@@ -1,0 +1,27 @@
+{
+  "name": "lint-staged.sh",
+  "version": "0.1.0",
+  "description": "Run linters against Git staged files",
+  "author": "Iiro Jäppinen <iiro@jappinen.fi> (https://iiro.fi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lint-staged/lint-staged.sh.git"
+  },
+  "bin": {
+    "lint-staged.sh": "lint-staged.sh"
+  },
+  "files": [
+    "lint-staged.sh"
+  ],
+  "scripts": {
+    "version": "commit-and-tag-version"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "20.4.1",
+    "@commitlint/config-conventional": "20.4.1",
+    "commit-and-tag-version": "12.6.1",
+    "husky": "9.1.7",
+    "prettier": "3.8.1"
+  }
+}
