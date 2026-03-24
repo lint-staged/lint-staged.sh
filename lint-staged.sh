@@ -2,8 +2,19 @@
 
 set -e
 
-DIM='\033[1;30m'
-NC='\033[0m'
+# If FORCE_COLOR is set, or stdout is a terminal and NO_COLOR is not set,
+# then use ANSI codes for dimmed text in the output,
+# else just output plain text.
+#
+# See https://force-color.org and https://no-color.org
+#
+if [ -n "${FORCE_COLOR:-}" ] || { [ -t 1 ] && [ -z "${NO_COLOR:-}" ]; }; then                                                                                                   
+    DIM='\033[1;30m'                                                                                                                                                              
+    NC='\033[0m'                                                                                                                                                                  
+else                                                                                                                                                                            
+    DIM=''                                                                                                                                                                        
+    NC=''                                                                                                                                                                         
+fi 
 
 get_staged_files() {
     git diff --staged --name-only --diff-filter ACMR -z -- "$@" | xargs --null
