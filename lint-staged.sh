@@ -17,7 +17,7 @@ else
 fi 
 
 get_staged_files() {
-    git diff --staged --name-only --diff-filter ACMR -z -- "$@" | xargs --null
+    git diff --staged --name-only --diff-filter ACMR -z -- "$@" | xargs -0 git rev-parse --sq-quote
 }
 
 usage() {
@@ -41,8 +41,8 @@ lint_staged() {
 
     local files=$(get_staged_files "$@")
     if [ -n "$files" ]; then
-        echo "${DIM}${command} $files${NC}"
-        eval "$command" "$files"
+        echo "${DIM}$command$files${NC}"
+        eval "$command$files"
         echo ""
     fi
 
