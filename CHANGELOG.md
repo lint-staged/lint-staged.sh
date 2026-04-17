@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.3.0](https://github.com/lint-staged/lint-staged.sh/compare/v0.2.0...v0.3.0) (2026-04-17)
+
+### Features
+
+- print info when nothing matched ([db9a433](https://github.com/lint-staged/lint-staged.sh/commit/db9a433bb30271340b522e5b0cb4d03e700c0887))
+
+### Bug Fixes
+
+- wrap filepaths in single quotes ([4d21cec](https://github.com/lint-staged/lint-staged.sh/commit/4d21cec5e8fb2df96e238b72accf4355196ad7ac))
+
 ## [0.2.0](https://github.com/lint-staged/lint-staged.sh/compare/v0.1.2...v0.2.0) (2026-03-24)
 
 ### Features
