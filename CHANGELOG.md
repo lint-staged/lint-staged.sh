@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.4.1](https://github.com/lint-staged/lint-staged.sh/compare/v0.4.0...v0.4.1) (2026-04-17)
+
+### Bug Fixes
+
+- update skill description ([17beb37](https://github.com/lint-staged/lint-staged.sh/commit/17beb37578b5e1fb722fe54fdf5c517c9629d780))
+
 ## [0.4.0](https://github.com/lint-staged/lint-staged.sh/compare/v0.3.0...v0.4.0) (2026-04-17)
 
 ### Features
