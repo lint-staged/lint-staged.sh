@@ -12,7 +12,11 @@
     "lint-staged.sh": "lint-staged.sh"
   },
   "files": [
-    "lint-staged.sh"
+    "CHANGELOG.md",
+    "LICENSE",
+    "lint-staged.sh",
+    "README.md",
+    "SKILL.md"
   ],
   "scripts": {
     "version": "commit-and-tag-version"

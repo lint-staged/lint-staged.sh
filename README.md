@@ -23,6 +23,18 @@ prettier --check index.js README.md
 
 ## Installation
 
+## Agent usage
+
+Install via [skills.sh](https://skills.sh):
+
+```shell
+npx skills install https://github.com/lint-staged/lint-staged.sh
+```
+
+Alternatively, add the [`SKILL.md`](./SKILL.md) to your knowledge.
+
+## Manual usage
+
 Copy the [`lint-staged.sh`](./lint-staged.sh) file from this repo somewhere and run it. It should work in the [Bourne shell (`sh`)](https://en.wikipedia.org/wiki/Bourne_shell).
 
 You probably want to run `lint-staged.sh` in a Git `pre-commit` hook so that you can abort the commit if one of your commands fails.
