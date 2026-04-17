@@ -61,7 +61,11 @@ If the command fails with the output `warning: Not a git repository`, the curren
 
 ## Step 3: Run the command
 
-If the user wants run a specific command like `prettier` or `eslint`, try to do it. If the current workspace is using some kind of a package manager, the command might need to be invoked with it, for example `npx prettier` or `make fmt`. Otherwise the command should be available globally. The command might also be a script file available locally, like `./linter.sh`
+If the user wants run a specific command like `prettier` or `eslint`, try to do it. If the current workspace is using some kind of a package manager, the command might need to be invoked with it, for example `npx prettier` or `make fmt`. Otherwise the command should be available globally. The command might also be a script file available locally, like `./linter.sh`. It's safest to pass the file arguments separated by two dashes `--`:
+
+```shell
+<the command> -- <staged files>
+```
 
 If the command is generic like "_lint_", it may be possible to find if by checking a manifest file, like the `package.json` for lint tools, and use those. Otherwise the user needs to be more specific.
 
