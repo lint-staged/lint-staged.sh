@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.4.3](https://github.com/lint-staged/lint-staged.sh/compare/v0.4.2...v0.4.3) (2026-04-17)
+
+### Bug Fixes
+
+- separate command from file arguments with two dashes ([5fd4fca](https://github.com/lint-staged/lint-staged.sh/commit/5fd4fcafbdd215918e182373550cb1ff0926875a))
+
 ## [0.4.2](https://github.com/lint-staged/lint-staged.sh/compare/v0.4.1...v0.4.2) (2026-04-17)
 
 ### Bug Fixes
