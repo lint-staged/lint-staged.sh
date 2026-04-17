@@ -1,6 +1,6 @@
 ---
 name: lint-staged
-description: Execute command against glob-filtered staged files in a Git repo.
+description: Lint staged files, optionally filtering them with globs, in a git repo. Run commands or scripts with the filtered list of staged files as arguments. Can also just list the staged files, optionally filtered. Useful for checking the current work and whether the upcoming commit is clean, linted and formatted.
 compatibility: Requires Bourne shell (sh), git and xargs
 ---
 
