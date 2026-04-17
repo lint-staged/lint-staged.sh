@@ -41,8 +41,8 @@ lint_staged() {
 
     local files=$(get_staged_files "$@")
     if [ -n "$files" ]; then
-        echo "${DIM}$command$files${NC}"
-        eval "$command$files"
+        echo "${DIM}$command --$files${NC}"
+        eval "$command --$files"
         echo ""
     else
         echo "${DIM}Nothing staged for $@${NC}"
