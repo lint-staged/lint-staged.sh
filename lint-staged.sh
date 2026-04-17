@@ -44,6 +44,8 @@ lint_staged() {
         echo "${DIM}$command$files${NC}"
         eval "$command$files"
         echo ""
+    else
+        echo "${DIM}Nothing staged for $@${NC}"
     fi
 
     exit 0
