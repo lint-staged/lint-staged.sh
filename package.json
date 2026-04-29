@@ -6,8 +6,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lint-staged/lint-staged.sh.git"
+    "url": "https://codeberg.org/lint-staged/lint-staged.sh.git"
   },
+  "homepage": "https://codeberg.org/lint-staged/lint-staged.sh",
   "bin": {
     "lint-staged.sh": "lint-staged.sh"
   },

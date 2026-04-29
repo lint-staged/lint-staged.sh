@@ -1,3 +1,6 @@
+> [!INFO]
+> The canonical source of `lint-staged.sh` is available in [Codeberg](https://codeberg.org/lint-staged/lint-staged.sh). It is mirrored to [GitHub](https://github.com/lint-staged/lint-staged.sh) only for [npm trusted publishing](https://docs.npmjs.com/trusted-publishers).
+
 # `lint-staged.sh`
 
 > Run linters against Git staged files
@@ -5,7 +8,7 @@
 `lint-staged.sh` is a shell script to evaluate a command with the list of [Git](https://git-scm.com) staged files as its arguments, filtered by globs. There are no additional features.
 
 > [!TIP]
-> If you use [lint-staged](https://github.com/lint-staged/lint-staged) to check if staged files are valid — _but not automatically fix them_ — you might be interested in this simpler shell script.
+> If you use [lint-staged](https://www.npmjs.com/package/lint-staged) to check if staged files are valid — _but not automatically fix them_ — you might be interested in this simpler shell script.
 
 ## Example
 
@@ -28,7 +31,7 @@ prettier --check index.js README.md
 Install via [skills.sh](https://skills.sh):
 
 ```shell
-npx skills install https://github.com/lint-staged/lint-staged.sh
+npx skills install https://codeberg.org/lint-staged/lint-staged.
 ```
 
 Alternatively, add the [`SKILL.md`](./SKILL.md) to your knowledge.
@@ -46,7 +49,7 @@ For example, create the file `.git/hooks/pre-commit` (and make it executable):
 lint-staged.sh "prettier --check" "*.js" "*.json" "*.md"
 ```
 
-If you are using [`npm`](https://www.npmjs.com), you can install `lint-staged.sh` and [Husky](https://github.com/typicode/husky) from there:
+If you are using [`npm`](https://www.npmjs.com), you can install `lint-staged.sh` and [Husky](https://www.npmjs.com/package/husky) from there:
 
 ```shell
 npm install --save-dev lint-staged.sh husky
