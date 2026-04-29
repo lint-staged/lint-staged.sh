@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.5.1](https://github.com/lint-staged/lint-staged.sh/compare/v0.5.0...v0.5.1) (2026-04-29)
+
+### Bug Fixes
+
+- npm trusted publishing requires package.json registry to point to GitHub ([7d5ac12](https://github.com/lint-staged/lint-staged.sh/commit/7d5ac12af10009f711bd89a8355ec0e18c3d8d4e))
+
 ## [0.5.0](https://codeberg.org/lint-staged/lint-staged.sh/compare/v0.4.3...v0.5.0) (2026-04-29)
 
 ### Features
