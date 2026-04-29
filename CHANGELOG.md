@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.5.0](https://codeberg.org/lint-staged/lint-staged.sh/compare/v0.4.3...v0.5.0) (2026-04-29)
+
+### Features
+
+- move repository to Codeberg ([e5de7a1](https://codeberg.org/lint-staged/lint-staged.sh/commit/e5de7a19b16de975857a1248e8f52b9e95fbfee4))
+
 ## [0.4.3](https://codeberg.org/lint-staged/lint-staged.sh/compare/v0.4.2...v0.4.3) (2026-04-17)
 
 ### Bug Fixes
