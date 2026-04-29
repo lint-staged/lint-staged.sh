@@ -1,4 +1,4 @@
-> [!INFO]
+> [!IMPORTANT]
 > The canonical source of `lint-staged.sh` is available in [Codeberg](https://codeberg.org/lint-staged/lint-staged.sh). It is mirrored to [GitHub](https://github.com/lint-staged/lint-staged.sh) only for [npm trusted publishing](https://docs.npmjs.com/trusted-publishers).
 
 # `lint-staged.sh`

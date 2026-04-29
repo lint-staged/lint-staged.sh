@@ -4,11 +4,15 @@
   "description": "Run linters against Git staged files",
   "author": "Iiro Jäppinen <iiro@jappinen.fi> (https://iiro.fi)",
   "license": "MIT",
+  "homepage": "https://codeberg.org/lint-staged/lint-staged.sh",
   "repository": {
     "type": "git",
-    "url": "https://codeberg.org/lint-staged/lint-staged.sh.git"
+    "url": "https://github.com/lint-staged/lint-staged.sh"
   },
-  "homepage": "https://codeberg.org/lint-staged/lint-staged.sh",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
   "bin": {
     "lint-staged.sh": "lint-staged.sh"
   },
