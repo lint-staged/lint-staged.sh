@@ -36,16 +36,16 @@ lint_staged() {
         exit 2
     fi
 
-    local command="$1"
+    command="$1"
     shift # remove first argument
 
-    local files=$(get_staged_files "$@")
+    files=$(get_staged_files "$@")
     if [ -n "$files" ]; then
         echo "${DIM}$command --$files${NC}"
         eval "$command --$files"
         echo ""
     else
-        echo "${DIM}Nothing staged for $@${NC}"
+        echo "${DIM}Nothing staged for $*${NC}"
     fi
 
     exit 0
