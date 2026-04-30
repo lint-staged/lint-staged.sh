@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.5.3](https://github.com/lint-staged/lint-staged.sh/compare/v0.5.2...v0.5.3) (2026-04-30)
+
+### Bug Fixes
+
+- resolve ShellCheck issues ([3149030](https://github.com/lint-staged/lint-staged.sh/commit/314903020a8dc1b923541a10c9af8601ab47f882))
+
 ## [0.5.2](https://github.com/lint-staged/lint-staged.sh/compare/v0.5.1...v0.5.2) (2026-04-30)
 
 ### Bug Fixes
