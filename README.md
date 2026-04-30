@@ -31,7 +31,7 @@ prettier --check index.js README.md
 Install via [skills.sh](https://skills.sh):
 
 ```shell
-npx skills install https://codeberg.org/lint-staged/lint-staged.
+npx skills install https://codeberg.org/lint-staged/lint-staged.sh
 ```
 
 Alternatively, add the [`SKILL.md`](./SKILL.md) to your knowledge.
