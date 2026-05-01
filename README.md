@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> The canonical source of `lint-staged.sh` is available in [Codeberg](https://codeberg.org/lint-staged/lint-staged.sh). It is mirrored to [GitHub](https://github.com/lint-staged/lint-staged.sh) only for [npm trusted publishing](https://docs.npmjs.com/trusted-publishers).
-
 # `lint-staged.sh`
 
 > Run linters against Git staged files
@@ -31,7 +28,7 @@ prettier --check index.js README.md
 Install via [skills.sh](https://skills.sh):
 
 ```shell
-npx skills install https://codeberg.org/lint-staged/lint-staged.sh
+npx skills install https://github.com/lint-staged/lint-staged.sh
 ```
 
 Alternatively, add the [`SKILL.md`](./SKILL.md) to your knowledge.
