@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.6.0](https://github.com/lint-staged/lint-staged.sh/compare/v0.5.3...v0.6.0) (2026-05-01)
+
+### Features
+
+- move package source back to GitHub ([0ca4b65](https://github.com/lint-staged/lint-staged.sh/commit/0ca4b65fa462769005e4037661a5986d8aca41fd))
+
 ## [0.5.3](https://github.com/lint-staged/lint-staged.sh/compare/v0.5.2...v0.5.3) (2026-04-30)
 
 ### Bug Fixes
