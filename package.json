@@ -1,7 +1,7 @@
 {
   "name": "lint-staged.sh",
   "version": "0.6.1",
-  "description": "Run linters against Git staged files",
+  "description": "Run linters against files staged in Git",
   "author": "Iiro Jäppinen <iiro@jappinen.fi> (https://iiro.fi)",
   "license": "MIT",
   "homepage": "https://github.com/lint-staged/lint-staged.sh",
@@ -37,5 +37,15 @@
     "packageManager": {
       "name": "npm"
     }
-  }
+  },
+  "keywords": [
+    "lint",
+    "staged",
+    "git",
+    "pre_commit",
+    "commit",
+    "hook",
+    "style",
+    "quality"
+  ]
 }
