@@ -1,6 +1,6 @@
 {
   "name": "lint-staged.sh",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "Run linters against files staged in Git",
   "author": "Iiro Jäppinen <iiro@jappinen.fi> (https://iiro.fi)",
   "license": "MIT",
