@@ -5,20 +5,26 @@
 `lint-staged.sh` is a shell script to evaluate a command with the list of [Git](https://git-scm.com) staged files as its arguments, filtered by globs. There are no additional features.
 
 > [!TIP]
-> If you use [lint-staged](https://www.npmjs.com/package/lint-staged) to check if staged files are valid — _but not automatically fix them_ — you might be interested in this simpler shell script.
+> If you use [lint-staged](https://www.npmjs.com/package/lint-staged) but do need backup or resetting to the original state in case of errors, you might be interested in this simpler shell script.
 
 ## Example
 
-Run `prettier --check` with all staged JS, JSON and MD files as its arguments:
+Run `prettier --write` with all staged JS, JSON and MD files as its arguments:
 
 ```shell
-lint-staged.sh "prettier --check" "*.js" "*.json" "*.md"
+lint-staged.sh "prettier --write" "*.js" "*.json" "*.md"
 ```
 
 Given staged files `index.js` and `README.md`, this will essentially run:
 
 ```shell
-prettier --check index.js README.md
+prettier --write index.js README.md
+```
+
+If the command edits any staged files, you can add the new changes by running:
+
+```shell
+git update-index --again
 ```
 
 ## Installation
@@ -43,7 +49,8 @@ For example, create the file `.git/hooks/pre-commit` (and make it executable):
 
 ```shell
 #!/bin/sh
-lint-staged.sh "prettier --check" "*.js" "*.json" "*.md"
+lint-staged.sh "prettier --write" "*.js" "*.json" "*.md"
+git update-index --again
 ```
 
 If you are using [`npm`](https://www.npmjs.com), you can install `lint-staged.sh` and [Husky](https://www.npmjs.com/package/husky) from there:
