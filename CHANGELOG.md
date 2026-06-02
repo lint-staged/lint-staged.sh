@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.6.9](https://github.com/lint-staged/lint-staged.sh/compare/v0.6.8...v0.6.9) (2026-06-02)
+
 ## [0.6.8](https://github.com/lint-staged/lint-staged.sh/compare/v0.6.7...v0.6.8) (2026-05-29)
 
 ## [0.6.7](https://github.com/lint-staged/lint-staged.sh/compare/v0.6.6...v0.6.7) (2026-05-28)
