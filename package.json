@@ -2,16 +2,22 @@
   "name": "lint-staged.sh",
   "version": "0.6.8",
   "description": "Run linters against files staged in Git",
-  "author": "Iiro Jäppinen <iiro@jappinen.fi> (https://iiro.fi)",
-  "license": "MIT",
+  "keywords": [
+    "commit",
+    "git",
+    "hook",
+    "lint",
+    "pre_commit",
+    "quality",
+    "staged",
+    "style"
+  ],
   "homepage": "https://github.com/lint-staged/lint-staged.sh",
+  "license": "MIT",
+  "author": "Iiro Jäppinen <iiro@jappinen.fi> (https://iiro.fi)",
   "repository": {
     "type": "git",
     "url": "https://github.com/lint-staged/lint-staged.sh"
-  },
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
   },
   "bin": {
     "lint-staged.sh": "lint-staged.sh"
@@ -23,29 +29,23 @@
     "README.md",
     "SKILL.md"
   ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "scripts": {
     "version": "commit-and-tag-version"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.0.1",
-    "@commitlint/config-conventional": "21.0.1",
+    "@commitlint/cli": "21.0.2",
+    "@commitlint/config-conventional": "21.0.2",
     "commit-and-tag-version": "12.7.3",
     "husky": "9.1.7",
-    "prettier": "3.8.3"
+    "oxfmt": "0.53.0"
   },
   "devEngines": {
     "packageManager": {
       "name": "npm"
     }
-  },
-  "keywords": [
-    "lint",
-    "staged",
-    "git",
-    "pre_commit",
-    "commit",
-    "hook",
-    "style",
-    "quality"
-  ]
+  }
 }

@@ -9,16 +9,16 @@
 
 ## Example
 
-Run `prettier --write` with all staged JS, JSON and MD files as its arguments:
+Format all staged JS, JSON and MD files with [oxfmt](https://oxc.rs/docs/guide/usage/formatter.html):
 
 ```shell
-lint-staged.sh "prettier --write" "*.js" "*.json" "*.md"
+lint-staged.sh "oxfmt --write" "*.js" "*.json" "*.md"
 ```
 
 Given staged files `index.js` and `README.md`, this will essentially run:
 
 ```shell
-prettier --write index.js README.md
+oxfmt --write index.js README.md
 ```
 
 If the command edits any staged files, you can add the new changes by running:
@@ -49,7 +49,7 @@ For example, create the file `.git/hooks/pre-commit` (and make it executable):
 
 ```shell
 #!/bin/sh
-lint-staged.sh "prettier --write" "*.js" "*.json" "*.md"
+lint-staged.sh "oxfmt --write" "*.js" "*.json" "*.md"
 git update-index --again
 ```
 

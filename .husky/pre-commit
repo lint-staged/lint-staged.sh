@@ -1,1 +1,1 @@
-lint-staged.sh "npx prettier --check" "*.json" "*.md" "*.yml"
+lint-staged.sh "npx oxfmt --no-error-on-unmatched-pattern" "*.json" "*.md" "*.yml"
